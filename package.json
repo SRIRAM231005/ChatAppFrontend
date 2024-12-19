@@ -20,7 +20,7 @@
     "react-scripts": "^5.0.1",
     "socket.io-client": "^4.8.1"
   },
-  "homepage": "https://your-username.github.io/ChatAppFrontend",
+  "homepage": "https://SRIRAM231005.github.io/ChatAppFrontend",
   "browserslist": {
     "production": [
       ">0.2%",
