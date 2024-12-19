@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.App{
+    background: linear-gradient(to bottom, #003366, #000033);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
+    font-size: 35px; /*rgb(4, 4, 20)*/
+    padding: 20px;
+}
+.heading{
+    font-size: 35px;
+    color: rgb(251, 215, 6);
+    padding-left: 40px;
+    font-family: 'Roboto' , sans-serif;
+    border-bottom: 2px solid rgb(253, 252, 252);
+}

@@ -1,0 +1,58 @@
+.message{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    background-color: rgb(15, 15, 15);
+    color: rgb(219, 219, 216);
+    height: fit-content;
+    width: 100%;
+}
+input{
+    height: 80px;
+    width: 700px;
+    font-size: 40px;
+    font-weight: 200;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(15, 15, 15);
+    color: rgb(219, 219, 216);
+}
+.sendButton img{
+    width: 50px;
+    height: 50px;
+}
+.displaybox{
+    width: 100%;
+    height: 90%;
+    /*border: 2px solid salmon;*/
+    background: linear-gradient(to bottom, #003366, #000033);
+    /*background-color: rgb(4, 4, 20);*/
+    overflow-y: auto;
+    margin-bottom: 30px;
+}
+.imgsend{
+    cursor: pointer;
+}
+.child-div{
+    color: white;
+    padding: 30px;
+    background-color: rgb(23, 23, 23);
+    border-radius: 20px;
+    margin: 40px;
+    font-size: 40px;
+    font-family: 'Roboto' , sans-serif;
+    white-space: normal; 
+    word-wrap: break-word;     
+    overflow-wrap: break-word; 
+}
+.date{
+    font-size: 25px;
+    color: rgb(191, 191, 189);
+    text-align: right;
+    margin-top: 20px;
+}
