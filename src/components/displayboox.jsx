@@ -12,6 +12,17 @@ function Displaybox(){
     const [tasksArray, setTasksArray] = useState([]);
 
     useEffect(() => {
+
+        if (Notification.permission === 'default') {
+            Notification.requestPermission().then(permission => {
+                if (permission === 'granted') {
+                    console.log("Notification permission granted.");
+                } else {
+                    console.log("Notification permission denied.");
+                }
+            });
+        }
+
         async function getMessages(){
             const response = await fetch('https://trialbackend.onrender.com/api/tasks');
             const tasks = await response.json();
